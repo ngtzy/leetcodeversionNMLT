@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main () {
 	int nums[100];
 	int n;
@@ -8,10 +7,8 @@ int main () {
 	for (int i = 0; i < n; i++) {
 		cin >> nums[i];
 	}
-
 	int target;
 	cin >> target;
-
 	int find = 0;
 	for (int i = 0; i<n; i++) { 
 		for (int k = i + 1; k<n; k++) {
